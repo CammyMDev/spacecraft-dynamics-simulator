@@ -1,0 +1,3 @@
+/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/Spacecraft_Dynamic_Simulator.dir
+/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/edit_cache.dir
+/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/rebuild_cache.dir

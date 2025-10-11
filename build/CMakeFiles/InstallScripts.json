@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

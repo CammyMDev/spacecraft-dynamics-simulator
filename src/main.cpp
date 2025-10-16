@@ -1,5 +1,5 @@
-#include <iostream>
 
+#include "main.hpp"
 // Step 1: Define the spaceship
 // - Store position, velocity, and mass
 // - Provide methods to update its state and retrieve position/velocity
@@ -19,5 +19,6 @@
 
 
 int main (){
-    
+    Spacecraft spacecraft(Vector3{6.771e6,0,0}, Vector3{0,0,0}, 200.0); //400 Km above surface
+    gravitationalObject earth {Vector3{0,0,0}, EARTH_MASS};
 }

@@ -86,18 +86,50 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/main.cpp -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.s
 
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/flags.make
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o: /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o -MF CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o.d -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o -c /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp
+
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp > CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.i
+
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.s
+
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/flags.make
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o: /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o -MF CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o.d -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o -c /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp
+
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp > CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.i
+
+CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.s
+
 # Object files for target Spacecraft_Dynamic_Simulator
 Spacecraft_Dynamic_Simulator_OBJECTS = \
-"CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o"
+"CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o" \
+"CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o" \
+"CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o"
 
 # External object files for target Spacecraft_Dynamic_Simulator
 Spacecraft_Dynamic_Simulator_EXTERNAL_OBJECTS =
 
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o
+Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o
+Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/compiler_depend.ts
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spacecraft_Dynamic_Simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Spacecraft_Dynamic_Simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

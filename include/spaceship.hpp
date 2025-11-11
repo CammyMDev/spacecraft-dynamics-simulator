@@ -1,3 +1,4 @@
+#pragma once
 #include "vector3.hpp"
 
 class Spacecraft{
@@ -8,7 +9,7 @@ class Spacecraft{
 
     public:
         Spacecraft(const Vector3& pos, const Vector3& vel, double m);
-        void update(double dt);
+        void update(double dt, Vector3& acceleration);
         Vector3 getPosition() const;
         Vector3 getVelocity() const;
 };

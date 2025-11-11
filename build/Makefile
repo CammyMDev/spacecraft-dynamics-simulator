@@ -153,6 +153,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/physics.o: src/physics.cpp.o
+.PHONY : src/physics.o
+
+# target to build an object file
+src/physics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o
+.PHONY : src/physics.cpp.o
+
+src/physics.i: src/physics.cpp.i
+.PHONY : src/physics.i
+
+# target to preprocess a source file
+src/physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.i
+.PHONY : src/physics.cpp.i
+
+src/physics.s: src/physics.cpp.s
+.PHONY : src/physics.s
+
+# target to generate assembly for a file
+src/physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.s
+.PHONY : src/physics.cpp.s
+
+src/spaceship.o: src/spaceship.cpp.o
+.PHONY : src/spaceship.o
+
+# target to build an object file
+src/spaceship.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o
+.PHONY : src/spaceship.cpp.o
+
+src/spaceship.i: src/spaceship.cpp.i
+.PHONY : src/spaceship.i
+
+# target to preprocess a source file
+src/spaceship.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.i
+.PHONY : src/spaceship.cpp.i
+
+src/spaceship.s: src/spaceship.cpp.s
+.PHONY : src/spaceship.s
+
+# target to generate assembly for a file
+src/spaceship.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.s
+.PHONY : src/spaceship.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/physics.o"
+	@echo "... src/physics.i"
+	@echo "... src/physics.s"
+	@echo "... src/spaceship.o"
+	@echo "... src/spaceship.i"
+	@echo "... src/spaceship.s"
 .PHONY : help
 
 

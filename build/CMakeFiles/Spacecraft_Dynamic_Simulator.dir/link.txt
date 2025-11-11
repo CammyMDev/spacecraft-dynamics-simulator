@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.d CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o -o Spacecraft_Dynamic_Simulator
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.d CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o -o Spacecraft_Dynamic_Simulator

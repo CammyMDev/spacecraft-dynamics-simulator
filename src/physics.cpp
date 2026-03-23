@@ -15,7 +15,7 @@ Vector3 computeGravitationalAcceleration(const Vector3& spaceshipPos, const grav
     unit_directon.y = displacement.y / r;
     unit_directon.z = displacement.z / r;
 
-    accelMagnitude = (G * body.mass) / (r * r);
+    accelMagnitude = (GRAV_CONST * body.mass) / (r * r);
 
     acceleration.x = unit_directon.x * accelMagnitude;
     acceleration.y = unit_directon.y * accelMagnitude;

@@ -128,6 +128,9 @@ Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/ph
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/build.make
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/compiler_depend.ts
+Spacecraft_Dynamic_Simulator: /usr/lib/libsfml-graphics.so.3.0.2
+Spacecraft_Dynamic_Simulator: /usr/lib/libsfml-window.so.3.0.2
+Spacecraft_Dynamic_Simulator: /usr/lib/libsfml-system.so.3.0.2
 Spacecraft_Dynamic_Simulator: CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Spacecraft_Dynamic_Simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spacecraft_Dynamic_Simulator.dir/link.txt --verbose=$(VERBOSE)

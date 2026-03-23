@@ -4,10 +4,10 @@
 
 Vector3 computeGravitationalAcceleration(const Vector3& spaceshipPos, const gravitationalObject& body) {
     Vector3 displacement;
-    double r;
     Vector3 unit_directon;
-    double accelMagnitude;
     Vector3 acceleration;
+    double r;
+    double accelMagnitude;
 
     displacement = body.position - spaceshipPos;
     r = displacement.magnitude();

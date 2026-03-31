@@ -239,6 +239,7 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o: /home/cam/Documents/
   /usr/include/c++/15.2.1/bits/specfun.h \
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
+  /usr/include/c++/15.2.1/bits/std_thread.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -257,6 +258,7 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o: /home/cam/Documents/
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -314,6 +316,7 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o: /home/cam/Documents/
   /usr/include/c++/15.2.1/string \
   /usr/include/c++/15.2.1/string_view \
   /usr/include/c++/15.2.1/system_error \
+  /usr/include/c++/15.2.1/thread \
   /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
   /usr/include/c++/15.2.1/tr1/beta_function.tcc \
   /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
@@ -870,6 +873,8 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/tr1/bessel_function.tcc:
 
+/usr/include/c++/15.2.1/thread:
+
 /usr/include/c++/15.2.1/string_view:
 
 /usr/include/c++/15.2.1/string:
@@ -895,8 +900,6 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/memory:
 
 /usr/include/c++/15.2.1/istream:
-
-/usr/include/c++/15.2.1/ext/type_traits.h:
 
 /usr/include/c++/15.2.1/ext/string_conversions.h:
 
@@ -949,6 +952,12 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/uses_allocator.h:
 
 /usr/include/c++/15.2.1/bits/unordered_map.h:
+
+/usr/include/c++/15.2.1/bits/unique_ptr.h:
+
+/usr/include/c++/15.2.1/ext/type_traits.h:
+
+/usr/include/c++/15.2.1/bits/this_thread_sleep.h:
 
 /usr/lib/libc.so:
 
@@ -1183,10 +1192,6 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
 /usr/include/SFML/Window/Cursor.hpp:
-
-/usr/include/c++/15.2.1/filesystem:
-
-/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/SFML/Window/Window.hpp:
 
@@ -1576,6 +1581,12 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o:
 
 /usr/include/c++/15.2.1/bits/std_abs.h:
 
+/usr/include/c++/15.2.1/filesystem:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/c++/15.2.1/bits/std_thread.h:
+
 /usr/include/c++/15.2.1/bits/stl_iterator.h:
 
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
@@ -1587,5 +1598,3 @@ CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o:
 /usr/include/c++/15.2.1/bits/stl_uninitialized.h:
 
 /usr/include/c++/15.2.1/bits/streambuf_iterator.h:
-
-/usr/include/c++/15.2.1/bits/unique_ptr.h:

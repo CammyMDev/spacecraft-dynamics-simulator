@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o -c /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/main.cpp",
+  "file": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/main.cpp",
+  "output": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o -c /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp",
+  "file": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/physics.cpp",
+  "output": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/physics.cpp.o"
+},
+{
+  "directory": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o -c /home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp",
+  "file": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/src/spaceship.cpp",
+  "output": "/home/cam/Documents/Projects/spacecraft-dynamics-simulator/build/CMakeFiles/Spacecraft_Dynamic_Simulator.dir/src/spaceship.cpp.o"
+}
+]

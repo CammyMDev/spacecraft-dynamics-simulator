@@ -107,7 +107,7 @@ void print_boot_screen() {
 }
 
 
-void configuration(int &planetSelection, double &spaceshipVelocity, double &spaceshipStartLocation){
+void configuration(int &planetSelection, double &       spaceshipVelocity, double &spaceshipStartLocation){
     
 
     std::cout << CYAN;
@@ -148,6 +148,9 @@ int startSim(double &spaceshipVelocity, int &planetSelection, double &spaceshipS
         case 1:
             MASS = 5.97219e24;
             break;
+        default:
+            std::cout << "[*]Invalid Selection" << std::endl;
+            return 1;
     }
     
 
